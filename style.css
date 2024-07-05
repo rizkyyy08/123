@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Menggunakan warna transparan untuk membuat teks terlihat lebih jelas */
+    color: rgb(255, 5, 5);
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang putih semi-transparan untuk konten utama */
+    color: black; /* Warna teks hitam agar kontras dengan latar belakang */
+    border-radius: 10px; /* Sudut melengkung untuk konten utama */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #003cff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003cff;
+}
+
+#availability-result {
+    margin-top: 20px;
+    color: green;
+}
